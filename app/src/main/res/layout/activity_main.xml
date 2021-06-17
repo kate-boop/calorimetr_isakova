@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#9E619A43"
+    android:backgroundTint="#909EE18C"
+    android:foregroundTint="#00C19595"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_Info"
+        android:layout_width="366dp"
+        android:layout_height="125dp"
+        android:foregroundTint="#C61313"
+        android:text="Пройденые шаги за сегодня:"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView_Steps"
+        android:layout_width="86dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="5dp"
+        android:background="#0080D8FF"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button_goNext"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#4D000CF5"
+        android:onClick="onClick_goNext"
+        android:text="Не пора ли покушать" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_3" />
+
+</LinearLayout>
